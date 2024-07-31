@@ -4,3 +4,15 @@ if (document.readyState == 'loading') {
     ready()
 }
 
+function addItemToCart(shop-item-title, shop-item-price) {
+    
+}
+
+function removeItemFromCart() {
+
+}
+
+function cartTotal() {
+
+}
+
