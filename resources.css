@@ -7,7 +7,7 @@
 * {
 box-sizing: border-box;
 font-family: 'Audiowide', sans-serif;
-font-color: #777
+color: #777
 font-size: 1.1em;
 padding: 5px
 }
@@ -66,7 +66,7 @@ html, body {
     background-position: center;
     background-size: cover;
     padding-bottom: 20px;
-    text-color:white;
+    color:white;
     
 
 
@@ -157,26 +157,6 @@ flex-grow: 1;
     
 }
 
-.shop-item-button (
-
-
-)
-
-.btn {
-text-align: center;
-vertical-align: middle;
-padding: .67em .67em;
-cursor: pointer;
-}
-
-.btn-primary {
-color: black;
-background-color: white;
-border: none;
-border-radius: .3em;
-font-weight: bold;
-}
-
 .cart-header {
     font-weight: bold;
     font-size: 1.2em;
@@ -205,7 +185,7 @@ font-weight: bold;
 }
 
 .cart-quantity {
-    width: 35%;
+    width: 20%;
 }
 
 .cart-item-title {
@@ -229,7 +209,8 @@ font-weight: bold;
 }
 
 .btn-danger:hover {
-    background-color: #CC4C4C;
+    background-color: black;
+    color:red
 
 }
 
@@ -246,3 +227,38 @@ font-weight: bold;
     margin-right: 25px;
 
 }
+
+.cartTotal {
+    text-align: center;
+    font-size: 1.75em;
+    margin: 40px auto 80px auto;
+    
+}
+
+.btnPurchase {
+    display: block;
+    text-align: center;
+    font-size: 1.7em;
+    margin: 40px auto 80px auto;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+    }
+    
+    .btn-primary {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    }
+    
+    .btn-primary:hover {
+        background-color:black;
+        color:red
+        
+    }
