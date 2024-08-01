@@ -189,7 +189,7 @@ flex-grow: 1;
 }
 
 .cart-item-title {
-    color: #333;   
+    color: #faf7f7;   
     margin-left: .5em;
     font-size: 1.2em;
 }
@@ -238,7 +238,7 @@ flex-grow: 1;
 .btnPurchase {
     display: block;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1em;
     margin: 40px auto 80px auto;
 }
 
@@ -251,7 +251,7 @@ flex-grow: 1;
     
     .btn-primary {
     color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: red;
     border: none;
     border-radius: .3em;
     font-weight: bold;
@@ -262,3 +262,24 @@ flex-grow: 1;
         color:red
         
     }
+.cart-items {
+    color:
+}
+
+.deathKnight {
+    background-image: url("GRIN WEB/dkwallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20px;
+    color:white;
+}
+
+.demonHunter {
+    background-image: 
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 20px;
+    color:white;
+    background-size:
+}
