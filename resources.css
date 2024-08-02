@@ -283,3 +283,34 @@ flex-grow: 1;
     color:white;
     background-size:
 }
+
+.resourceListol{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;    
+}
+
+.classHeadings{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.className{
+    display:flex;
+    flex-direction:row;
+    max-width: 325px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.flexContainer{
+    display: flex;
+    flex: 1;
+    height: 90%;
+    max-width: fit-content;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
