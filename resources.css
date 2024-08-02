@@ -7,7 +7,7 @@
 * {
 box-sizing: border-box;
 font-family: 'Audiowide', sans-serif;
-font-color: #777
+color: #777
 font-size: 1.1em;
 padding: 5px
 }
@@ -66,7 +66,7 @@ html, body {
     background-position: center;
     background-size: cover;
     padding-bottom: 20px;
-    text-color:white;
+    color:white;
     
 
 
@@ -157,21 +157,6 @@ flex-grow: 1;
     
 }
 
-.btn {
-text-align: center;
-vertical-align: middle;
-padding: .67em .67em;
-cursor: pointer;
-}
-
-.btn-primary {
-color: black;
-background-color: white;
-border: none;
-border-radius: .3em;
-font-weight: bold;
-}
-
 .cart-header {
     font-weight: bold;
     font-size: 1.2em;
@@ -200,11 +185,11 @@ font-weight: bold;
 }
 
 .cart-quantity {
-    width: 35%;
+    width: 20%;
 }
 
 .cart-item-title {
-    color: #333;   
+    color: #faf7f7;   
     margin-left: .5em;
     font-size: 1.2em;
 }
@@ -224,7 +209,8 @@ font-weight: bold;
 }
 
 .btn-danger:hover {
-    background-color: #CC4C4C;
+    background-color: black;
+    color:red
 
 }
 
@@ -241,3 +227,90 @@ font-weight: bold;
     margin-right: 25px;
 
 }
+
+.cartTotal {
+    text-align: center;
+    font-size: 1.75em;
+    margin: 40px auto 80px auto;
+    
+}
+
+.btnPurchase {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    margin: 40px auto 80px auto;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+    }
+    
+    .btn-primary {
+    color: black;
+    background-color: red;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    }
+    
+    .btn-primary:hover {
+        background-color:black;
+        color:red
+        
+    }
+.cart-items {
+    color:
+}
+
+.deathKnight {
+    background-image: url("GRIN WEB/dkwallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20px;
+    color:white;
+}
+
+.demonHunter {
+    background-image: 
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 20px;
+    color:white;
+    background-size:
+}
+
+.resourceListol{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;    
+}
+
+.classHeadings{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.className{
+    display:flex;
+    flex-direction:row;
+    max-width: 325px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.flexContainer{
+    display: flex;
+    flex: 1;
+    height: 90%;
+    max-width: fit-content;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
