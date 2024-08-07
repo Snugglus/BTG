@@ -43,7 +43,7 @@ html, body {
     text-align: center;
     font-size; 1.2em;
     font-weight: lighter;
-    border-bottom: 2px solid rgba(255, 255, 255, .3)
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
 .class-nav {
@@ -63,8 +63,8 @@ html, body {
 .main-header {
     background-image: url("GRIN WEB/council.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position:center;
+    background-size:cover;
     padding-bottom: 20px;
     color:white;
     
@@ -72,7 +72,7 @@ html, body {
 
 }
 h1 {
-    color: grey
+    color: white;
 }
 
 .guild-name {
@@ -118,6 +118,7 @@ h1 {
     color: skyblue;
     font-family: 'Press Start 2P';
     font-size: 18px;
+    line-height: 1.2em;
   }
 
 .shop-item {
@@ -216,7 +217,7 @@ flex-grow: 1;
 
 .cart-quantity-input {
     height: 34px;
-    width: 50px;
+    width: 75px;
     border-radius: 5px;
     border: 1px solid #56CCF2;
     background-color: #eee;
