@@ -315,3 +315,8 @@ flex-grow: 1;
     justify-content: center;
 }
 
+.alertBox{
+    background-color: black;
+    color: crimson;
+}
+
