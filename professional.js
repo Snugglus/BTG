@@ -8,7 +8,10 @@ fetch(url)
         const affixesArray = data;
         const affixDetails = affixesArray['affix_details'];
         let affixCards = affixDetails.map((
-            { name, description, icon }) => ({ name, description, icon }));
+            { name, description, icon, wowhead_url }) => ({ name, description, icon, wowhead_url }));
+            affixCards.forEach(name => {document.createElement('div')
+                                
+            });
         console.log(affixCards);
     })
 
