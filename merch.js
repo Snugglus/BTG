@@ -91,7 +91,6 @@ cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', remove
 cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
 }
 
-
 function updateCartTotal() {
     var cartItemContainer = document.getElementsByClassName('cart-items')[0]
     var cartRows = cartItemContainer.getElementsByClassName('cart-row')
@@ -109,11 +108,3 @@ function updateCartTotal() {
     document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
 }
 
-function showAlert() {
-    const alertBox = document.getElementById('custom-alert');
-    alertBox.classList.remove('hidden');
-  
-    setTimeout(() => {
-      alertBox.classList.add('hidden');
-    }, 3000); // Disappear after 3 seconds
-  }
